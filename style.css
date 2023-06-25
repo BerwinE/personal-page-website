@@ -1,0 +1,115 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-color: beige;
+  font-size: 20px;
+}
+
+head {
+  text-align: center;
+}
+
+h1 {
+  color: yellow;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px 0px 20px 900px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: green;
+  transform: scale(1.2);
+  color: yellow;
+  font-weight: bold;
+}
+
+.user-avatar {
+  width: 200px;
+  height: 200px;
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.5);
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+.about-me-section,
+.video-section {
+  display: flex;
+  flex-direction: row;
+  margin: 50px auto;
+  border: 2px solid #f1faee;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+}
+
+h2 {
+  color: darkblue;
+}
+
+.about-me-text {
+  flex: 1;
+  margin-top: 70px;
+  margin-right: 5px;
+}
+
+.intro-video {
+  width: 560px;
+  height: 315px;
+}
+
+.video-section p {
+  flex: 1;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.c-site-header {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.c-site-footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
